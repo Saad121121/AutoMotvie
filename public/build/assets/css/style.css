@@ -1,0 +1,420 @@
+body {
+    /* background-color: #d3d3d3 !important; */
+    background-color: #f0f0f0 !important;
+    /* font-family: cursive !important; */
+    font-family: sans-serif !important;
+}
+
+body::-webkit-scrollbar-track,
+.modal-body::-webkit-scrollbar-track,
+.table-responsive::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    border-radius: 0px;
+    /* background-color: #F5F5F5; */
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+}
+
+body::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: #F5F5F5; */
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb,
+.table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #ae0814;
+}
+
+.card {
+    border-radius: 12px !important;
+    /* background-image: linear-gradient(
+        to bottom right,
+        rgba(255, 0, 0, 0),
+        rgb(179 179 179)
+    ) !important; */
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0), rgb(219 219 219)) !important;
+    box-shadow: 0px 0px 8px 0px #57575738 !important;
+}
+
+.heading-tittle {
+    font-weight: 900;
+}
+
+.card.back-imge-color,
+.black-slider {
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+    padding: 5px;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+    /* left: 0 !important; */
+}
+
+.card.back-imge-color .card-body {
+    border: 1px solid #fff;
+    border-radius: 12px !important;
+}
+
+.dash-logo {
+    width: 100%;
+    height: 300px;
+}
+
+.dash-logo img {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.link-list {
+    display: none;
+}
+
+.point-img {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+
+.point-img2 {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+}
+
+.list-anchar a,
+.inner-list li a {
+    color: #0c0f12;
+}
+
+.point-img img,
+.point-img2 img,
+.center-point-img img,
+.center-div-img img,
+.car-center-img img,
+.navbar-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-logo img {
+    object-fit: contain;
+    object-position: center;
+}
+
+.cstm-desktop-css {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cstm-navbar-link ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    margin: 0px !important;
+}
+
+.cstm-navbar-link ul li {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.cstm-navbar-link ul li a {
+    color: #98a6ad;
+}
+
+.cstm-navbar-link ul li:hover a {
+    color: #fff;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 60px;
+}
+
+.center-point-img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.cstm-logo-tag {
+    font-size: 16px !important;
+    color: #98a6ad !important;
+}
+
+.cstm-logo-tag:hover {
+    color: #fff !important;
+}
+
+.center-div-img,
+.car-center-img {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+.car-center-img.margin-scale-cstm {
+    margin: 10px auto;
+}
+
+.icon-img-card i {
+    font-size: 30px;
+}
+
+.car-center-img img,
+.card-icon-img img {
+    object-fit: contain;
+    object-position: center;
+}
+
+.icon-img-card h4,
+.icon-img-card i {
+    color: #6c757d;
+}
+
+.icon-img-card i {
+    transition: transform .2s;
+    /* Animation */
+    transform: scale(0.9);
+}
+
+.cstm-car-card {
+    padding: 1.5rem 8px !important;
+}
+
+.cstm-car-card h3 {
+    font-size: 22px;
+}
+
+.icon-img-card:hover i {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+button {
+    border-radius: 20px !important;
+}
+
+.link-list.active {
+    display: block;
+}
+
+.line {
+    background-color: #9b9d9c;
+    width: 40%;
+    height: 3px;
+    border-radius: 20px;
+}
+
+.cstm-div-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cstm-div-nav ul,
+.inner-list {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.cstm-div-nav ul li.list-anchar {
+    margin: 12px 0px;
+    font-size: 18px;
+}
+
+.inner-list li {
+    margin: 6px 0px;
+    font-size: 16px;
+}
+
+.center-div-img img {
+    box-shadow: 10px 10px 12px 0px #0000008c;
+    border-radius: 50%;
+}
+
+/* .button-menu-mobile {
+    display: none;
+} */
+
+/* .content-page {
+    margin-left: 0px !important;
+} */
+
+.for-column-height .card {
+    height: 100%;
+}
+
+.anchar-color a {
+    color: #6c757d;
+}
+
+.icon-border i {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+    box-shadow: 4px 4px 8px 0px #000000a1;
+}
+
+.black-card-header {
+    color: #fff;
+    background-image: linear-gradient(to bottom right,
+            rgb(0 0 0 / 76%),
+            rgb(0 0 0)) !important;
+}
+
+.promotion-img {
+    width: 100%;
+    height: 60vh;
+}
+
+.modal-content.cstm-promotion-modal {
+    background-color: transparent !important;
+}
+
+.promotion-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cstm-input-style input,
+.cstm-input-style select {
+    /* background-color:#f0f4f5; */
+    /* background-image: linear-gradient(to bottom right,
+            #d3d3d3,
+            #bebebe) !important; */
+    /* background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0), rgb(219 219 219)) !important; */
+    /* border: 1px solid #6c757d; */
+    border: 1px solid #dee2e6;
+    padding: 8px 14px;
+    width: 100%;
+    margin: 6px 0px 20px 0px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 6px;
+}
+
+.table a i {
+    color: #6c757d !important;
+}
+
+.cstm-padding {
+    padding: 0.45rem 20px !important;
+}
+
+.toggle-class {
+    overflow: hidden;
+    transition: height 0.5s ease;
+    height: 0;
+    /* Start with height of 0 */
+}
+
+.toggle-active-div {
+    height: 320px;
+    /* Full height of the container */
+}
+
+.additional-div {
+    position: relative;
+}
+
+.additional-div::after {
+    transition: width 0.5s ease;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 220px;
+    background-image: linear-gradient(to bottom right, rgb(239 239 239), rgb(227 227 227)) !important;
+}
+
+.additional-div.active-second::after {
+    width: 0px;
+
+}
+
+.dataTables_filter {
+    margin-bottom: 20px;
+}
+
+thead tr {
+    background-image: linear-gradient(to bottom right, rgb(49 49 49), rgb(0 0 0)) !important;
+    color: #98a6ad;
+}
+
+.list-font-icon {
+    font-size: 30px;
+    color: #6c757d;
+}
+
+.cstm-tab-width {
+    width: 220px;
+}
+
+
+.card-zoom-image .car-center-img,
+.car-center-img {
+    transition: transform .2s;
+    /* Animation */
+    transform: scale(0.9);
+}
+
+.card-zoom-image:hover .car-center-img,
+.swiper-slide:hover .car-center-img {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card-zoom-image .card-icon-img {
+    transition: transform .2s;
+    /* Animation */
+    transform: scale(0.8);
+}
+
+.card-zoom-image:hover .card-icon-img {
+    transform: scale(1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.modal-header {
+    background-image: linear-gradient(to bottom right, rgb(49 49 49), rgb(0 0 0)) !important;
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .cstm-desktop-css,
+    .button-menu-mobile {
+        display: block;
+    }
+
+    .desktop-show {
+        display: none;
+    }
+}
